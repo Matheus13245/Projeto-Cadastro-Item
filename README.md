@@ -31,3 +31,7 @@ Acesse a página da lista para visualizar os itens cadastrados.
 Utilize a barra de pesquisa para filtrar itens por nome, descrição ou categoria.
 
 Remova itens clicando no botão Remover (com confirmação).
+
+INTEGRANTES
+
+Matheus Ricardo Lima Costa
