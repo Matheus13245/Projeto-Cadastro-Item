@@ -1,6 +1,6 @@
 # Projeto-Cadastro-Item
 
- Este projeto é um sistema simples de cadastro, listagem, busca e remoção de itens utilizando apenas HTML, CSS e JavaScript. Ele permite que o usuário registre Produtos ou Tarefas, adicionando um nome e uma descrição opcional para cada item.🚀 Funcionalidades
+ Este projeto é um sistema simples de cadastro, listagem, busca e remoção de itens utilizando apenas HTML, CSS e JavaScript. Ele permite que o usuário registre Produtos ou Tarefas, adicionando um nome e uma descrição opcional para cada item.
 
 FUNCIONALIDADESI IMPLEMENTADAS
 
