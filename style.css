@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 20px;
+}
+
+.container {
+  background: #ffffff;
+  padding: 30px 40px;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+}
+
+.titulo-principal {
+  font-size: 28px;
+  color: #2c3e50;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.subtitulo {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.label,
+h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: #2c3e50;
+  margin-top: 16px;
+}
+
+.input,
+select {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-size: 15px;
+  background-color: #fafafa;
+  transition: border-color 0.3s ease;
+}
+
+
+.botao {
+  display: inline-block;
+  padding: 12px 20px;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  width: 100%;
+  margin-top: 10px;
+}
+
+
+.botao-voltar {
+  background-color: #ccc;
+  color: #333;
+  margin-top: 20px;
+}
+
+
+#msg-sucesso {
+  background-color: #dff0d8;
+  color: #3c763d;
+  padding: 12px;
+  font-size: 15px;
+  text-align: center;
+}
+
+#detalhes-item,
+#msg-sucesso,
+#descricao-item {
+  display: none;
+  margin-top: 20px;
+}
+
+.lista-itens {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.item-listado {
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 12px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.botao-remover {
+  margin-top: 8px;
+  background-color: #d9534f;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}

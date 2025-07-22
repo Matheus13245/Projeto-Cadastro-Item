@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cadastrar Itens</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <main class="container">
+    <h1 class="titulo-principal">Cadastrar novo item</h1>
+    <h2 class="subtitulo">Selecione o tipo do item</h2>
+
+    <form id="form-coleta" class="formulario">
+      <div id="opcoes-item">
+        <label for="tipo-item">Tipo de Item:</label>
+        <select id="tipo-item" class="input" required onchange="mostrarCampoTipo()">
+          <option disabled selected value="">Escolha uma opção</option>
+          <option value="Produto">Produto</option>
+          <option value="Tarefa">Tarefa</option>
+        </select>
+      </div>
+
+      <div id="detalhes-item">
+        <label for="tipo-detalhado">Digite o nome do item:</label>
+        <input type="text" id="tipo-detalhado" class="input" placeholder="Ex: Papel, Entrega, Metal..." required />
+      </div>
+
+      <div id="descricao-item">
+        <label for="descricao">Digite a descrição do item(opcional)</label>
+        <input type="text" id="descricao" class="input" placeholder="Ex: Jogar o lixo segunda feira"/>
+      </div>
+
+      <button type="submit" class="botao" style="margin-top: 25px;">Confirmar</button>
+    </form>
+
+    <p id="msg-sucesso"></p>
+
+    <a href="index.html" class="botao botao-voltar">Voltar ao Menu Inicial</a>
+  </main>
+  <script src="script.js"></script> 
+</body>
+
+</html>
